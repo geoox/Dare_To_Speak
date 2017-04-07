@@ -1,0 +1,149 @@
+html { height: 100%; }
+
+body{
+	background-image: url("resources/orange-700368_1920.jpg");
+	background-attachment: fixed;
+
+}
+
+li a:hover{
+	color:rgb(246, 106, 34);
+	transition: 0.7s;
+}
+
+
+.brand-logo img{
+	max-width:25%;
+}
+
+
+
+/*footer start*/
+
+.sisc, .social{
+  display:flex;
+  justify-content:center;
+}
+
+.sisc p{
+  margin-top:22px;
+  color:white;
+  font-size:20px;
+}
+
+.sisc img{
+  margin-left:18px;
+}
+
+.youtube img:hover, .instagram  img:hover, .twitter img:hover , .facebook img:hover{
+  background-color:rgb(226, 51, 8);
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+  border-radius:7px;
+}
+
+.facebook, .instagram, .twitter{
+  margin-right:10%;
+}
+
+.social{
+  margin-bottom:20px;
+  padding-top:35px;
+}
+
+
+
+#footer{
+  
+  margin:0px;
+  background-color: black !important;
+  
+}
+
+.description p{
+	color:rgb(226, 51, 8);
+	text-align: right !important;
+	margin-right: 3%;
+	font-size:12px;
+	background-color: black;
+
+}
+/*footer end*/
+
+
+
+.slider{
+	margin-top:7% !important;
+	max-width:80%;
+	margin:auto;
+	
+}
+
+.slides img{
+	max-width: 100% !important;
+	max-height: 100% !important;
+}
+
+.slider .indicators .indicator-item.active {
+	background-color:black !important;
+}
+
+.slider{
+	margin-bottom:8%;
+}
+
+.row{
+	margin-bottom: 5% !important;
+}
+
+.material-tooltip:nth-child(even){
+	max-width:52% !important;
+	margin-right:20% !important;
+	justify-content: center !important;
+}
+
+.material-tooltip:nth-child(odd){
+	max-width:31% !important;
+	margin-left:20% !important;
+	justify-content: center !important;
+}
+
+p, span{
+	color:white !important;
+	text-align: center;
+}
+
+
+div.row.hide-on-large-only{
+	text-align: center;
+	justify-content: center;
+	margin:auto !important;
+}
+
+#pardesk .parallax-container {
+    width:90%;
+    height:410px !important;
+    margin:auto;
+    margin-bottom: 7%;
+}
+
+#parmob .parallax-container {
+    width:90%;
+    height:70px !important;
+    margin:auto;
+    margin-bottom: 7%;
+    margin-top:10%;
+}
+
+
+
+.modal-content p{
+	color:black !important;
+}
+
+#parallax1{
+	width:90%;
+    height:10px !important;
+    margin:auto;
+    
+}

@@ -1,0 +1,51 @@
+body{
+	background-image:url("resources/lion-wallpaper-18.jpg");
+	background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+   
+
+}
+
+
+
+.text p{
+	color:rgb(246, 106, 34);
+	margin-top: 10%;
+	font-size:230%;
+	font-weight: bold;
+	border: solid black;
+	border-radius: 30px;
+	width:30%;
+	text-align: center;
+	margin-left: 15%;
+}
+
+
+.text p:hover{
+	color:black;
+	background-color:rgb(246, 106, 34);
+	transition: 1s;
+}
+
+i{
+	color:rgb(246, 106, 34);
+	border-radius: 260px;
+	border:solid rgb(246, 106, 34);
+	margin-top:5%;
+	margin-left:27%;
+}
+
+i:hover{
+	color:black;
+	background-color: rgb(246, 106, 34);
+	transition: 1s;
+}
+
+.row{
+	color:rgb(246, 106, 34);
+}
